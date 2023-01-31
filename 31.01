@@ -1,0 +1,71 @@
+#1
+#
+# r = (int(input("Radius:")))
+# pi = 3.14
+# s = pi*r*r
+# print(("Area"), s )
+
+#2
+
+# n = int(input("Num : "))
+# n1 = int( "%s" % n )
+# n2 = int( "%s%s" % (n,n) )
+# n3 = int( "%s%s%s" % (n,n,n) )
+# print ("Expected Result :" ,n1+n2+n3)
+
+#3
+
+# def sort(lst):
+#     digits = [int(digit) for digit in str(lst)]
+#     return sum(digits)
+# lst = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+# print(sorted(lst, key=sort))
+
+#4
+# total = 0
+# lst = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+# for ele in range(0, len(lst)):
+#     total = total + lst[ele]
+# print("Sum of all the items in a list: ", total)
+
+#5
+
+# def common(a, b):
+#     result = False
+#     for x in a:
+#         for y in b:
+#             if x == y:
+#                 result = True
+#                 return result
+#     return result
+#
+# a = [1, 2, 3, 4, 5]
+# b = [6, 7, 8, 9]
+# print(common(a, b))
+
+#6
+
+# a = int(input("Input: "))
+# fact = 1
+# for i in range(1, a+1):
+#     fact = fact * i
+# result = fact
+# print("Output: ", result)
+
+#7
+
+# def rev(tuples):
+#     new_tup = ()
+#     for k in reversed(tuples):
+#         new_tup = new_tup + (k,)
+#     print (new_tup)
+# tuples = (10, 11, 12, 13, 14, 15)
+# rev(tuples)
+
+#8
+
+# def check(nums):
+#     return all([sum(nums[:i]) == i for i in range(len(nums))])
+# nums = [1,1,1,1,1,1]
+# print("Input:", nums)
+# print("Output:", check(nums))
